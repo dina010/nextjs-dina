@@ -1,11 +1,14 @@
-
 export default function Home() {
   return (
     <div className="font-sans min-h-screen flex flex-col justify-between bg-gradient-to-br from-pink-200 via-pink-400 to-pink-600 text-pink-100">
       
       {/* Main Content */}
       <main className="flex flex-col gap-10 items-center sm:items-start p-10">
-        
+        {/* KELOMPOK */}
+        <h1 className="text-2xl font-bold text-pink-200">
+           KELOMPOK UHUY
+        </h1>
+
         {/* Judul */}
         <h1 className="text-4xl font-extrabold tracking-tight drop-shadow-lg text-pink-100">
           🍰 Galeri Makanan Manis ✨
