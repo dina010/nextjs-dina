@@ -10,7 +10,7 @@ type Food = {
   title: string;
   img: string;
   desc: string;
-  category: "cake" | "donut";
+  category: "Cake" | "Donut" | "Brownies";
 };
 
 /* ================= DATA ================= */
@@ -19,19 +19,19 @@ const FOOD_LIST: Food[] = [
     title: "Brownies Cokelat",
     img: "https://tse2.mm.bing.net/th/id/OIP.lBv8YtsfqVpMCZ9wgMmI7wHaHa?pid=Api&P=0&h=220",
     desc: "Brownies lembut dengan cokelat premium yang lumer di mulut.",
-    category: "cake",
+    category: "Brownies",
   },
   {
     title: "Donat Stroberi",
     img: "https://tse1.mm.bing.net/th/id/OIP.Z4rW95uEIg5MK-q0LLfr5AHaEJ?pid=Api&P=0&h=220",
     desc: "Donat empuk dengan topping stroberi merah muda.",
-    category: "donut",
+    category: "Donut",
   },
   {
     title: "Cake Pelangi",
-    img: "https://via.placeholder.com/300x200.png?text=Cake+Pelangi",
+    img: "https://th.bing.com/th/id/OIP.NQCJnWG4vFdm8P36-0_SOgHaE8?w=227&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3",
     desc: "Cake warna-warni dengan tekstur lembut dan manis.",
-    category: "cake",
+    category: "Cake",
   },
 ];
 
@@ -90,8 +90,9 @@ export default function HomePage() {
           className="max-w-xs px-4 py-2 rounded-full text-pink-700"
         >
           <option value="all">Semua</option>
-          <option value="cake">Cake</option>
-          <option value="donut">Donat</option>
+          <option value="Cake">Cake</option>
+          <option value="Donut">Donat</option>
+          <option value="Brownies">Brownies</option>
         </select>
 
         {/* GALLERY */}
